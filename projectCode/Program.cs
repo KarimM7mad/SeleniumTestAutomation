@@ -71,7 +71,7 @@ namespace projectCode
                 textArea.SendKeys(t.ReasonToJoin);
             driver.FindElement(By.Id("submit")).Click();
             // don't forget to close the browser after finishing the test case
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(5000);
             driver.Close();
 
         }
