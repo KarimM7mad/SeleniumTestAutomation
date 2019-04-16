@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form File</title>
+</head>
+
+<body>
+    <script>
+        function submitForm() {
+            var str = "";
+            str += document.getElementById("first_name").value + "\n";
+            str += document.getElementById("last_name").value + "\n";
+            str += document.getElementById("student_ID").value + "\n";
+            str += document.getElementById("student_mail").value + "\n";
+            if (document.getElementById('male').checked)
+                str += 'male' + "\n";
+            else if (document.getElementById('female').checked)
+                str += 'female' + "\n";
+            str += document.getElementById("department").value + "\n";
+            str += document.getElementById("reasonToJoin").value + "\n";
+            document.getElementById('str').innerHTML = str;
+        }
+    </script>
+    <div style="background:orange; padding: 10px 10px 10px 10px;">
+        <label> First Name</label>
+        <input type="text" id="first_name" value="">
+        <br>
+        <br>
+        <label> Last Name</label>
+        <input type="text" id="last_name" />
+        <br>
+        <br>
+        <label> Student ID</label>
+        <input type="text" id="student_ID">
+        <br>
+        <br>
+        <label> Student Mail</label>
+        <input type="email" id="student_mail">
+        <br>
+        <br>
+        <input type="radio" name="gender" id="male">
+        <label> Male</label>
+        <br>
+        <br>
+        <input type="radio" name="gender" id="female">
+        <label> Female</label>
+        <br>
+        <br>
+        <label> Department </label>
+        
+        <select name="department" id="department">
+            <option value="CESS">CESS</option>
+            <option value="Communication">Communication</option>
+            <option value="Building">Building</option>
+            <option value="Materials">Materials</option>
+        </select>
+        <br>
+        <br>
+        <label>Reason to join</label>
+        <br>
+        
+        <br>
+        <textarea name="reasonToJoin" id="reasonToJoin" cols="50" rows="7"></textarea>
+        <br>
+        
+        <br>
+        <button type="submit" id="submit" onclick="submitForm()">Click HERE</button>
+
+    </div>
+
+    <pre id=str></pre>
+
+</body>
+
+
+
+
+
+</html>
