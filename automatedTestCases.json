@@ -1,0 +1,58 @@
+{
+	"testCases":
+	[
+		{
+			"first_name" : "John",
+			"last_name" : "Smith",
+			"student_ID" : "11p6008",
+			"student_mail": "11p6008@eng.asu.edu.eg",
+			"gender" : "male",
+			"department" : "CESS",
+			"reasonToJoin" : "Because I want to gain experience"					
+		},
+		{
+			"first_name" : "Jane",
+			"last_name" : "Austin",
+			"student_ID" : "12p6034",
+			"student_mail": "12p6034@eng.asu.edu.eg",
+			"gender" : "female",
+			"department" : "Communication",
+			"reasonToJoin" : "Because I want to meet new friends!"					
+		},
+		{
+			"first_name" : "Lana",
+			"last_name" : "Zaki",
+			"student_ID" : "11M6099",
+			"student_mail": "11M6099@eng.asu.edu.eg",
+			"gender" : "female",
+			"department" : "Materials",
+			"reasonToJoin" : "No idea but everyone around me is enrolled in some kind of activity so why not"					
+		},
+		{
+			"first_name" : "Michael",
+			"last_name" : "Zaki",
+			"student_ID" : "11P6031",
+			"student_mail": "11P6031@eng.asu.edu.eg",
+			"gender" : "male",
+			"department" : "Building",
+			"reasonToJoin" : "Because I heard there is a salary"					
+		},
+		{
+			"first_name" : "Reem",
+			"last_name" : "",
+			"student_ID" : "11P6035",
+			"student_mail": "11P6035",
+			"gender" : "female",
+			"department" : "Building",
+			"reasonToJoin" : "to gain experience"					
+		},
+		{
+			"first_name" : "Mohamed",
+			"last_name" : "Mohamed",
+			"student_ID" : "11P6036",
+			"student_mail": "11P6036@eng.asu.edu.eg",
+			"gender" : "male",
+			"department" : "CESS"
+		}
+	]
+}
